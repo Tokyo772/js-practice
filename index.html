@@ -3,11 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
+    <script
+      async
+      src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"
+    ></script>
 
-    <script src="./js/task-1.js" defer type="module"></script>
-    <script src="./js/task-2.js" defer type="module"></script>
-    <script src="./js/task-3.js" defer type="module"></script>
+    <script src="./js/trening.js" defer type="module"></script>
   </head>
-  <body></body>
+  <body>
+    <form action="submit" class="js-form">
+      <input type="text" name="email" />
+      <input type="password" name="password" />
+      <textarea cols="30" rows="10" name="comment"></textarea>
+      <button>Submit</button>
+    </form>
+  </body>
 </html>
